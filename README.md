@@ -1,5 +1,33 @@
-### 万象拼音 
-（内建同文拼音9、14、18键布局方案）
+## 自然龙
+### 单
+#### a
+拉啥马差
+#### e
+rr鹅ll彻
+#### i
+积鼻替gg
+#### o
+坡eeiigg
+#### u
+aa卢母户
+#### v
+hhmmssff
+
+### 2
+
+
+### 3
+
+
+### 4
+#### iang
+yyiiuuee
+#### uang
+wwbb爽ee
+#### iong
+ppkkeehh
+
+## Other
 
 **配套方案** 本方案为万象系列方案基础版    [>>辅助码增强版本](https://github.com/amzxyz/rime_wanxiang_pro)  
 
@@ -219,47 +247,4 @@ set_shuru_schema:
 以前做好这几件事需要多个字表、多个lua协同，配置文件里要引入多个加载器。
 
 而现在注释本来的面目就是带着声调的，你只需要完全暴露注释，他就是显示拼音声调的形态，你可以使用lua简单的加个括号等等简易的格式操作，可以借助lua接口将其替换到输入码preedit、注释comment，在反查时由于rime本身的注释生成特性，多音字都会被一一罗列到注释里，你无需额外维护多音字字表。在用户态里的感知就是无需复杂配置，无需加载过多的文件，节约内存开销，提升性能，减少方案文件维护成本。
-
- **鸣谢:**
-
-   项目英文词库及部分lua来自"[rime-ice](https://github.com/iDvel/rime-ice)"
-
-   拼音标注来自万象词库与语法模型项目，并在该项目下进行鸣谢！
-
-   感谢网友的热情提报问题，使得模型和词库体验进一步提升。
-
- **赞赏:**
-   如果觉得项目好用，可以请AMZ喝咖啡
-
-   <img src="https://github.com/amzxyz/rime_wanxiang_pro/blob/main/.github/%E8%B5%9E%E8%B5%8F.jpeg" width="400">   
-
- 
-### 自然龙
-#### 单
-##### a
-拉啥马差
-##### e
-rr鹅ll彻
-##### i
-积鼻替gg
-##### o
-坡eeiigg
-##### u
-aa卢母户
-##### v
-hhmmssff
-
-#### 2
-
-
-#### 3
-
-
-#### 4
-##### iang
-yyiiuuee
-##### uang
-wwbb爽ee
-##### iong
-ppkkeehh
 
