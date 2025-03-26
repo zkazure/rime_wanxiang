@@ -1,7 +1,7 @@
 ## Wishlist 
 - [ ] pure edition
 - [ ] make dual input method 
-- [ ] add 自然龙 to the website to practice.
+- [ ] add 自然龙 to the website to practice. [website](https://github.com/BlueSky-07/Shuang)
 
 ## 自然龙
 ### 单
