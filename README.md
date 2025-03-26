@@ -32,6 +32,12 @@ wwbb爽ee
 #### iong
 ppkkeehh
 
+### Code
+![code-1](./images/code-1.jpg)
+![code-2](./images/code-2.jpg)
+![code-3](./images/code-3.jpg)
+![code-4](./images/code-4.jpg)
+
 ## Other
 
 **配套方案** 本方案为万象系列方案基础版    [>>辅助码增强版本](https://github.com/amzxyz/rime_wanxiang_pro)  
