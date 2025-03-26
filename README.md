@@ -234,3 +234,32 @@ set_shuru_schema:
    <img src="https://github.com/amzxyz/rime_wanxiang_pro/blob/main/.github/%E8%B5%9E%E8%B5%8F.jpeg" width="400">   
 
  
+### 自然龙
+#### 单
+##### a
+拉啥马差
+##### e
+rr鹅ll彻
+##### i
+积鼻替gg
+##### o
+坡eeiigg
+##### u
+aa卢母户
+##### v
+hhmmssff
+
+#### 2
+
+
+#### 3
+
+
+#### 4
+##### iang
+yyiiuuee
+##### uang
+wwbb爽ee
+##### iong
+ppkkeehh
+
