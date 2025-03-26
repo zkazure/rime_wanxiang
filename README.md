@@ -1,3 +1,8 @@
+## Wishlist 
+- [ ] pure edition
+- [ ] make dual input method 
+- [ ] add 自然龙 to the website to practice.
+
 ## 自然龙
 ### 单
 #### a
