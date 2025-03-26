@@ -13,8 +13,8 @@ super_comment:           # 超级注释模块
   corrector_type: "{comment}"  #错音错词提示显示类型，比如"({comment})" 
 ########################以下是方案配置######################################################
 schema:
-  schema_id: wanxiang
-  name: 万象拼音
+  schema_id: wx-zrm
+  name: 万象自然码
   version: "2024-11-11"
   author:
     - amzxyz

@@ -9,7 +9,7 @@ config_version: '2024-09-30'
 # 方案列表
 schema_list:
   - schema: wx-zrm
-  - schema: wx-zrl
+  # - schema: wx-zrl
 
 # 菜单
 menu:
