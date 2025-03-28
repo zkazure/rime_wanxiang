@@ -2,7 +2,7 @@
 # encoding: utf-8
 ###############选择与之匹配的拼音方案#####################
 set_shuru_schema:
-  __include: algebra_zrm    #可选的选项有（algebra_pinyin, algebra_zrm, algebra_flypy, algebra_mspy, algebra_sogou, algebra_abc, algebra_ziguang）
+  __include: algebra_flypy    #可选的选项有（algebra_pinyin, algebra_zrm, algebra_flypy, algebra_mspy, algebra_sogou, algebra_abc, algebra_ziguang）
 
 ######################################################
 schema:
