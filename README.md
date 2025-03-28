@@ -2,7 +2,46 @@
 - [ ] pure edition
 - [ ] make dual input method 
 - [ ] add 自然龙 to the website to practice. [website](https://github.com/BlueSky-07/Shuang)
-- [ ] 如何改变词组的优先级
+
+## How to use
+
+ 首先
+
+打开万象项目主方案 ```wanxiang.schema.yaml```，编辑表头，选择方案, 需要注意在手机上使用同文输入法时，长按回车键进入功能菜单选中与方案匹配的布局
+
+```
+#############万象拼音无辅助码版本###########################
+set_shuru_schema:         #配置此项就是选择什么输入法,同时拆分反查和中英文混输也将匹配该输入方案
+  __include: 自然码  #可选解码规则有   全拼, 自然码, 自然龙, 小鹤, 搜狗, 微软  选择一个填入
+set_gongjian_mohu:    #可选的值有：26键, 18键, 14键, 9键  注意PC选26键
+  __include: 18键
+pro_comment_format:           # 超级注释模块
+  candidate_length: 1         # 候选词注释提醒的生效长度，0为关闭  但同时清空其它，应当使用开关或者快捷键来处理    
+  corrector_type: "{comment}"  #错音错词提示显示类型，比如"({comment})" 
+########################以下是方案配置######################################################
+```
+
+可以说非常清晰了，定义方案名称、拼音类型、以及注释显示逻辑，配置完毕保存。
+
+继续分别打开```radical_pinyin.schema.yaml```  ```melt_eng.schema``` 分别对反查和英文解码方案进行表头配置
+
+```
+###############选择与之匹配的拼音方案#####################
+
+set_shuru_schema:
+
+  __include: algebra_zrm   #可选的选项有（algebra_pinyin, algebra_zrm, algebra_flypy, algebra_mspy, algebra_sogou, algebra_abc, algebra_ziguang）
+```
+
+同样选择对应的拼音类型即可，保存后即可部署使用了
+
+ **用户词删除：** 不管什么删除都不能直接作用于固定词典，使用Ctrl+del是rime系统删除用户词，基于lua的实现：对选中的候选词操作，使用Ctrl+d 删除，Ctrl+x隐藏，Ctrl+j降低词频，删除的词都在lua下文件中记录，你可以清空重新部署恢复，也可以根据列出去清除固定词典的编码，从而持续迭代。
+
+## Style
+
+- In the windows, you can edit the `weasel.yaml`
+- You can not change the style of ibus-rime.
+- In Linux, using the `default.custom.yaml`
 
 ## 自然龙
 ### 单
