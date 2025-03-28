@@ -2,6 +2,7 @@
 - [ ] pure edition
 - [ ] make dual input method 
 - [ ] add 自然龙 to the website to practice. [website](https://github.com/BlueSky-07/Shuang)
+- [ ] 如何改变词组的优先级
 
 ## 自然龙
 ### 单
