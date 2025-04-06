@@ -150,6 +150,8 @@ key_binder:
     - {accept: KP_Subtract, send: minus,    when: composing}
     - {accept: KP_Divide,   send: slash,    when: composing}
 
+    - { when: always, toggle: ascii_mode, accept: Control+space }
+
 
 # 按键速查
 # https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
